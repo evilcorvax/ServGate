@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>ServerGate 0.1</title>
+ </head>
+ <body>
+ 	<h1 style="text-align: center"> Welcome to SERVERGate Management System </h1>
+  	<form style="text-align: center" action="start_vm.php" method="get">
+  <input type="submit" value="Start your virtual machine">
+</form>
+<br>
+	<form style="text-align: center" action="stop_vm.php" method="get">
+  <input type="submit" value="Stop your virtual machine">
+</form>
+<br>
+<form style="text-align: center" action="restart_vm.php" method="get">
+  <input type="submit" value="Restart your virtual machine">
+</form>
+  	<br> 
+  	<a href = "gpiocond.php"> Check the GPIO Header </a>
+  	<br>
+  	<a href = "zabbix.php"> Monitor the current state of our virtual machine </a>
+  
+ </body>
+</html>
